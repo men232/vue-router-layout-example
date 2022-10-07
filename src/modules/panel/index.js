@@ -3,7 +3,7 @@ export const routes = [
     path: "dashboard",
     name: "dashboard",
     component: () =>
-      import(/* webpackChunkName: "ModuleA" */ "./pages/DashboardPage.vue"),
+      import(/* webpackChunkName: "Panel" */ "./pages/DashboardPage.vue"),
     meta: {
       appLayout: "panel",
     },

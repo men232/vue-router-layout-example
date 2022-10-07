@@ -3,7 +3,7 @@ export const routes = [
     path: "/module-c",
     name: "module-c",
     component: () =>
-      import(/* webpackChunkName: "ModuleA" */ "./pages/ModuleCPage.vue"),
+      import(/* webpackChunkName: "ModuleC" */ "./pages/ModuleCPage.vue"),
     meta: {
       appLayout: "layoutC",
     },
